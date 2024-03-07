@@ -7,7 +7,7 @@ import os
 import requests
 import hashlib
 
-SCRAPE_URL = os.environ.get('SCRAPE_URL', 'http://localhost/data')
+SCRAPE_URL = os.environ.get('SCRAPE_URL', 'http://localhost:5000/data')
 
 try:
     response = requests.get(SCRAPE_URL)
