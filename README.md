@@ -20,12 +20,16 @@ To run docker-compose, run this command:
 
 # Scripting Exercise
 
-- - [script.py](./script.py) helps in acheiving this whole job, it creates `files` directory in current folder and also verifies the SHA256 match for each `id` and its `name` retrieved from our API.
+- [script.py](./script.py) helps in acheiving this whole job, it creates `files` directory in current folder and also verifies the SHA256 match for each `id` and its `name` retrieved from our API.
 the script has been writen in Python, and to have the result you have to run the following command in the directory
 before that, you have to download all the dependencies listed in the requirment.txt file
+```
     `pip install -r requirment.txt`
+```
 then run the below command to generate the file
+```
     `Python script.py`
+```
 
 # Reverse Proxy 
 
